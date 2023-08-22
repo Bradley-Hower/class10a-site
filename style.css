@@ -1,0 +1,92 @@
+
+body {
+  width: 901px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;  
+}
+
+header {
+  margin-top: 30px;
+}
+
+@font-face {
+  font-family: 'Yellowtail-Regular';
+  src: url(fonts/Yellowtail-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Brass Mono Comfortable';
+  src: url(fonts/regular_comfortable.otf);
+}
+
+@font-face {
+  font-family: 'OPTIAkrogroteskBold-Cond';
+  src: url(fonts/OPTIAkrogroteskBold-Cond.otf);
+}
+
+
+#headerspan {
+  width: calc(100% - 240px);
+}
+
+#logo{
+  height: 70px;
+  margin-right: 10px;
+  float: left;
+}
+
+.logoline1 {
+  font-family: Yellowtail-Regular;
+  font-size: 35px;
+}
+
+.logoline2 {
+  font-family: Brass Mono Comfortable;
+  font-size: 8px;
+}
+
+#social {
+  float: right;
+  margin-top: -30px;
+}
+
+#imagebanner {
+  background-image: url(images/hr-img.png);
+  background-repeat: calc(901px);
+  margin-top: 30px;}
+
+h1 {
+  font-family: OPTIAkrogroteskBold-Cond;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  color: grey;
+  width: calc(100% - 240px);
+}
+
+#printicon {
+margin-bottom: 30px;
+text-align: right;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 14px;
+
+color: grey;
+}
+
+article {
+  font-family: times, sans-serif;
+  font-size: 20px;
+  color: grey;
+  margin-top: 30px;
+}
+
+p {
+  text-indent: 30px;
+}
+
