@@ -1,9 +1,12 @@
 
 body {
-  width: 901px;
-  display: flex;
-  flex-direction: column;
-  align-self: center;  
+  width: vw;
+  max-width: 901px;
+  margin: 0 auto;
+}
+
+img {
+  max-width:100%;
 }
 
 header {
@@ -25,15 +28,14 @@ header {
   src: url(fonts/OPTIAkrogroteskBold-Cond.otf);
 }
 
-
 #headerspan {
-  width: calc(100% - 240px);
+  display: inline-block;
+  width: calc(100% - 290px);
 }
 
 #logo{
   height: 70px;
   margin-right: 10px;
-  float: left;
 }
 
 .logoline1 {
@@ -47,14 +49,18 @@ header {
 }
 
 #social {
-  float: right;
-  margin-top: -30px;
+  font-size: 0;
+  display: inline-block;
+} 
+
+#social img{
+  padding-right: 3px;
 }
 
 #imagebanner {
   background-image: url(images/hr-img.png);
   background-repeat: calc(901px);
-  margin-top: 30px;}
+  margin-top: 25px;}
 
 h1 {
   font-family: OPTIAkrogroteskBold-Cond;
